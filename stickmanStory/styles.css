@@ -1,0 +1,64 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, sans-serif;
+    background: linear-gradient(0deg, #040404 0%, #373a3a);
+    color: white;
+  }
+  
+  #choices {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+  }
+  
+  #background {
+    width: 100%;
+    height: 400px;
+  }
+  
+  .choice {
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    width: 45%;
+    padding: 8px;
+  }
+  
+  #story {
+    height: 75px;
+    width: 100%;
+    padding-top: 10px;
+  }
+  
+  #title {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 5px;
+  }
+  
+  #musicToggle {
+    background-color: #444;
+    color: white;
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  #musicToggle:hover {
+    background-color: #787878;
+    cursor: pointer;
+  }
+  
+  @media (max-width: 650px) {
+    #container {
+      width: 80%;
+    }
+    #story {
+      height: 100px;
+    }
+  }
+      
